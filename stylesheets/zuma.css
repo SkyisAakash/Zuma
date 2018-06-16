@@ -1,0 +1,13 @@
+.box{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+img {
+  width: 100px;
+  height: 30px;
+}
