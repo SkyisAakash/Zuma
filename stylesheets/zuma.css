@@ -4,12 +4,23 @@
     height: 100px;
 
     position: absolute;
-    left: 25%;
-    top: 25%;
+    left: 47%;
+    top: 30%;
+    display:none;
+}
+#frog{
+  width: 50px;
+  height: 50px;
+  
 }
 img {
   width: 100px;
   height: 100px;
   border: 1px solid black;
   border-radius: 50%;
+}
+canvas {
+    margin: 0 auto;
+    display: block;
+    /* width: 800px; */
 }
