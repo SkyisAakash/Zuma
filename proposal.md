@@ -21,6 +21,10 @@
 
 ## Wireframes
 
+  * This app is going to be a one page app with main game canvas at the center of the page  and controls to pause, play, replay, mute on left side of the canvas.
+  * At the bottom of the page there will be links for github and linked-in
+  
+ ![Wireframe for ZumaInfinite](https://s26.postimg.cc/tvhi4v8s9/zuma.png)
 ## Architecture and Technologies
 
 This project will be implemented using following technologies:
