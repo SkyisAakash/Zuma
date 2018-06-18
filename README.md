@@ -10,11 +10,11 @@
   New balls keep coming until the game ends or user stops simulation.
 
 ## Functionality & MVP
-  - [ ] Make frog respond to direction of mouse pointer
-  - [ ] Make chain of balls appear with random colored balls
-  - [ ] Move chain of balls in spiral towards the skull emblem
-  - [ ] Shoot balls from frog in appropriate direction upon mouse click
-  - [ ] Hear sounds on shooting balls
+  - [x] Make frog respond to direction of mouse pointer
+  - [x] Make chain of balls appear with random colored balls
+  - [x] Move chain of balls in spiral towards the skull emblem
+  - [x] Shoot balls from frog in appropriate direction upon mouse click
+  - [ ] Make sounds on shooting balls
   - [ ] Add newball in the chain upon shooting
   - [ ] Make balls explode if location of fireball has more than two same colored balls as neighbors
   - [ ] Start,Stop actions for game
@@ -23,7 +23,7 @@
 
   * This app is going to be a one page app with main game canvas at the center of the page  and controls to pause, play, replay, mute on left side of the canvas.
   * At the bottom of the page there will be links for github and linked-in
-  
+
  ![Wireframe for ZumaInfinite](https://s26.postimg.cc/tvhi4v8s9/zuma.png)
 ## Architecture and Technologies
 
