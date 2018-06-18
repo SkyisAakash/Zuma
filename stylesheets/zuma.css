@@ -11,8 +11,11 @@
 #frog{
   width: 50px;
   height: 50px;
-  
+
 }
+/* body{ */
+  /* background-color: yellow; */
+/* } */
 img {
   width: 100px;
   height: 100px;
@@ -23,4 +26,14 @@ canvas {
     margin: 0 auto;
     display: block;
     /* width: 800px; */
+}
+#mainfooter{
+  background-image: url("https://s26.postimg.cc/5wuhqexo9/zumafooter.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-size: 100%;
+}
+.gitlogo {
+  left: 500px;
 }

@@ -32,7 +32,7 @@ This project will be implemented using following technologies:
 - HTML5 Canvas for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 - Vanilla JavaScript for game structure and game logic,
-- Web Audio API for sound generation, processing and control. WebAudioAPI allows for  simultaneous sounds with more dependable time triggering
+- Howler audio library will be used for sound generation, processing and control.
 
 In addition to the webpack entry file i.e. zuma.js, there will be some more scripts involved in this project:
 * balls.js - This script contains class definition for Ball objects. It inherits from parent class MovingObject.
