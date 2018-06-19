@@ -15,7 +15,7 @@
   - [x] Move chain of balls in spiral towards the skull emblem
   - [x] Shoot balls from frog in appropriate direction upon mouse click
   - [ ] Make sounds on shooting balls
-  - [ ] Add newball in the chain upon shooting
+  - [x] Add newball in the chain upon shooting
   - [ ] Make balls explode if location of fireball has more than two same colored balls as neighbors
   - [ ] Start,Stop actions for game
 
