@@ -16,7 +16,7 @@
   - [x] Shoot balls from frog in appropriate direction upon mouse click
   - [ ] Make sounds on shooting balls
   - [x] Add newball in the chain upon shooting
-  - [ ] Make balls explode if location of fireball has more than two same colored balls as neighbors
+  - [x] Make balls disappear if location of fireball has more than two same colored balls as neighbors
   - [ ] Start,Stop actions for game
 
 ## Wireframes
