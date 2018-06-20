@@ -32,13 +32,23 @@
   height: 722px;
   width: 1000px;
   color: white;
+  letter-spacing: 0.5px;
+  font-family: arial, sans-serif;
 }
 #aboutdiv > h1, h2, ul, a, .abouttext {
   margin: 20px;
 }
-.abouttext > a{
+#myname {
+  margin-bottom: 0px;
+}
+#linked {
+  width: 150px;
+}
+#myname > a{
   color: white;
   text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
 }
 button{
     height: 112px;
