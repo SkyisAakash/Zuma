@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="./stylesheets/zuma.css">
     <title></title>
     <script type="text/javascript" src="lib/bundle.js">
@@ -9,13 +10,44 @@
     </script>
   </head>
   <body>
-    <canvas id="game-canvas">
-    </canvas>
-    <div class="box"><img id="frog" src="https://s26.postimg.cc/5u53n06qh/zumafrog.png"/></div>
-    <div class="box"><img id="skull" src="https://s26.postimg.cc/terp4y3ft/skull.jpg"/></div>
+    <div class="header"><img src="https://s26.postimg.cc/vxiy9ljrd/header.jpg"/></div>
+    <div class="topSection">
+      <div class="leftSection">
+          <img class="leftImage" src="https://s26.postimg.cc/o3drak9qx/zumaleft.jpg"/>
+          <button id="startGame"> <p>Play</p> </button>
+          <button id="startGame"> <p>About</p> </button>
+      </div>
+      <canvas id="game-canvas">
+      </canvas>
+      <div class="box">
+          <img id="frog" src="https://s26.postimg.cc/5u53n06qh/zumafrog.png"/>
+      </div>
+      <div class="box">
+          <img id="skull" src="https://s26.postimg.cc/terp4y3ft/skull.jpg"/>
+      </div>
+      <div class="rightSection">
+          <img src="https://s26.postimg.cc/c6qq3e27t/rulesbackground.jpg"/>
+          <div class="rules">
+          <h1>Rules:</h1>
+          <p> 👉 Use mouse to rotate frog and click to shoot a fireball.</p>
+          <br>
+            <p>  👉 Your goal is to prevent the ball chain from reaching the skull emblem.</p>
+            <br>
+            <p>  👉 Shoot balls at appropriate position to make combination of three or more same colored balls, the balls will disappear in that case and chain will move backwards accordingly.</p>
+            <br>
+              <p>👉 You should only shoot one ball at a time for one position.</p>
+              <br>
+              <p>👉 If you make all the balls go away, you win!
+          </p>
+          <br>
+          <br>
+          <p>Enjoy!</p>
+        </div>
+        </div>
+    </div>
     <div id="mainfooter">
-      <a  href="https://github.com/SkyisAakash/MeetUs"><img className="gitlogo" src="https://s26.postimg.cc/vfgcwm9ax/github.png"/></a>
-      <a href="https://www.linkedin.com/in/aakash-sarang-50957aa3/"><img className="linkedlogo" src="https://s26.postimg.cc/x79bra0ax/linkedin.jpg"/></a>
+      <a  href="https://github.com/SkyisAakash/MeetUs"><img class="gitlogo" src="https://s26.postimg.cc/vfgcwm9ax/github.png"/></a>
+      <a href="https://www.linkedin.com/in/aakash-sarang-50957aa3/"><img class="linkedlogo" src="https://s26.postimg.cc/x79bra0ax/linkedin.jpg"/></a>
     </div>
   </body>
 </html>

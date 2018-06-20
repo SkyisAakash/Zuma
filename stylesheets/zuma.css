@@ -13,10 +13,106 @@
   height: 50px;
 
 }
+.topSection {
+  display: flex;
+}
+#hidden{
+  display: none;
+}
+#game-canvas{
+  border: 10px solid #990073;
+  border-radius: 25px;
+  margin: 0px;
+}
+button{
+    height: 112px;
+    width: 300px;
+    font-family:  'Dekko';
+    font-size: 50px;
+    font-weight: 900;
+      box-shadow: 0 9px #999;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+width: 100%;
+border: 10px solid black;
+border-radius: 25px;
+    background-image: url("https://s26.postimg.cc/9o512vvyx/backgroundforbuttons.jpg");
+}
+button:hover {
+  background-image: url("https://s26.postimg.cc/cuzkmklkp/hoverbuttonbackground.jpg");
+}
+button:active {
+  background-image: url("https://s26.postimg.cc/cuzkmklkp/hoverbuttonbackground.jpg");
+  /* box-shadow: 0 5px #666; */
+  border: 7px solid black;
+  border-radius: 25px;
+  transform: translateY(4px);
+}
+p {
+  margin: 0 auto;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.leftSection{
+  /* width: 500px; */
+  background-color: black;
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+}
+.rightSection{
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+}
+.rightSection > img {
+  height: 100%;
+  position: relative;
+}
+.rightSection > .rules {
+  position: absolute;
+  margin-left: 30px;
+  width: 16%;
+padding-left: 14px;
+word-wrap: break-word;
+}
+.rules h1 {
+  color: #ffbf00;
+  text-shadow: 2px 2px 2px #ffe669;
+}
+.header {
+  object-fit: fill;
+  background-image: url("https://s26.postimg.cc/5wuhqexo9/zumafooter.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.header > img {
+  margin-left: 38%;
+  height: 100px;
+}
+.rules > p:last-child {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+text-shadow: 1px 1px 2px black, 0 0 25px #fff700, 0 0 5px #898b00;
+}
+
 /* body{ */
   /* background-color: yellow; */
 /* } */
-img {
+.leftImage {
+  border: 10px solid black;
+  border-radius: 25px;
+  width: 94%;
+  margin-top: 10px;
+}
+#frog, #skull, .gitlogo, .linkedlogo {
   width: 100px;
   height: 100px;
   border: 1px solid black;
@@ -28,7 +124,7 @@ canvas {
     /* width: 800px; */
 }
 #mainfooter{
-  background-image: url("https://s26.postimg.cc/5wuhqexo9/zumafooter.jpg");
+  background-image: url("https://s26.postimg.cc/u9jsv0y6x/zumafooterreversed.jpg");
   display: flex;
   flex-direction: row;
   justify-content: space-around;
