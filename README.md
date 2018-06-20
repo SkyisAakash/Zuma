@@ -1,4 +1,6 @@
 # Zuma Infinite
+
+  [Zuma Live!](https://skyisaakash.github.io/Zuma/)
 ## Background and Overview
 
   **ZumaInfinite** is a game comprising of balls of four colors i.e. red, blue, yellow and green
