@@ -22,7 +22,23 @@
 #game-canvas{
   border: 10px solid #990073;
   border-radius: 25px;
-  margin: 0px;
+  margin: 20px 0px;
+}
+#aboutdiv {
+/* padding-left: 20px; */
+    border: 10px solid #990073;
+    border-radius: 25px;
+    margin: 20px 0px;
+  height: 722px;
+  width: 1000px;
+  color: white;
+}
+#aboutdiv > h1, h2, ul, a, .abouttext {
+  margin: 20px;
+}
+.abouttext > a{
+  color: white;
+  text-decoration: none;
 }
 button{
     height: 112px;
@@ -40,6 +56,7 @@ border-radius: 25px;
     background-image: url("https://s26.postimg.cc/9o512vvyx/backgroundforbuttons.jpg");
 }
 button:hover {
+  cursor: pointer;
   background-image: url("https://s26.postimg.cc/cuzkmklkp/hoverbuttonbackground.jpg");
 }
 button:active {
@@ -81,6 +98,12 @@ body {
   width: 16%;
 padding-left: 14px;
 word-wrap: break-word;
+}
+.hidden{
+  display: none;
+}
+.show {
+  display: block;
 }
 .rules h1 {
   color: #ffbf00;
