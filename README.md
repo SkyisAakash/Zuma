@@ -1,4 +1,4 @@
-# Welcome to <a href="https://s26.postimg.cc/wp00y4rjt/Linkforreadme.jpg"><img src="https://s26.postimg.cc/6mxzycjk9/logo.jpg" width = "130" display="inline-block"></a>
+# Welcome to <a href="https://skyisaakash.github.io/Zuma/"><img src="https://s26.postimg.cc/6mxzycjk9/logo.jpg" width = "130" display="inline-block"></a>
 
   [Zuma Live!](https://skyisaakash.github.io/Zuma/)
 
