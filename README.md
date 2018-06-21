@@ -32,7 +32,7 @@
   - HTML5 Canvas for DOM manipulation and rendering,
   - Webpack to bundle and serve up the various scripts.
   - Vanilla JavaScript for game structure and game logic,
-  - WebAudioAPI was used for sound generation, processing and control.
+  - HTML audio element was used for sound generation, processing and control.
 
 ## Challenges and Math involved:
 
