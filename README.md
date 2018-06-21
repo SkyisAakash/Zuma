@@ -4,8 +4,8 @@
 
 ## Background and Overview
 
-  MainPage(https://s26.postimg.cc/8t62xzyux/mainpagezuma.png)
-  
+  ![MainPage](https://s26.postimg.cc/8t62xzyux/mainpagezuma.png)
+
   **ZumaInfinite** is a classic game comprising of balls of four colors i.e. red, blue, yellow and green
   ,a frog controlled by user in the center and a skull emblem.
   User can shoot balls from frog in any direction to make group of three or more same colored balls, in which case the balls explode and user gets points depending on number
@@ -13,6 +13,8 @@
   Chain of balls proceeds in spiral towards the skull emblem and when it reaches the skull emblem the game ends.
   The goal of user here is to shoot balls in appropriate direction so balls explode and hence go away.
   Currently there are 30 balls but I might keep changing number of balls or even make it infinite from time to time so come back to challenge yourself. :)
+
+  ![Gamepage](https://s26.postimg.cc/i0yberb2x/gamepage.png)
 
 ## Design
 
@@ -37,6 +39,8 @@
   Then the entry point of the canvas is transferred to that point where a temporary canvas is drawn with appropriate image depending on the color of ball.
 
 ### Calculating Coordinates:
+
+  ![PlayDemo](https://s26.postimg.cc/ho6x8nsu1/zumademo.gif)
   The whole spiral is divided in five semi circles whose radius reduces gradually and center point shifts slightly in order to connect them together on their end points.
   The following code snippet calculates coordinates for the balls on the outer bottom semi circle.
 
