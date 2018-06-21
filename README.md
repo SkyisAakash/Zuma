@@ -16,10 +16,10 @@
   - [x] Make chain of balls appear with random colored balls
   - [x] Move chain of balls in spiral towards the skull emblem
   - [x] Shoot balls from frog in appropriate direction upon mouse click
-  - [ ] Make sounds on shooting balls
   - [x] Add newball in the chain upon shooting
   - [x] Make balls disappear if location of fireball has more than two same colored balls as neighbors
   - [x] Start,Stop actions for game
+  - [ ] Make sounds on shooting balls
 
 ## Wireframes
 
@@ -34,7 +34,7 @@ This project will be implemented using following technologies:
 - HTML5 Canvas for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 - Vanilla JavaScript for game structure and game logic,
-- Howler audio library will be used for sound generation, processing and control.
+- WebAudioAPI will be used for sound generation, processing and control.
 
 In addition to the webpack entry file i.e. zuma.js, there will be some more scripts involved in this project:
 * balls.js - This script contains class definition for Ball objects. It inherits from parent class MovingObject.
@@ -55,13 +55,13 @@ In addition to the webpack entry file i.e. zuma.js, there will be some more scri
 * Add newball in chain upon shooting
 ### Day2
 * Make balls explode if location of fireball has more than two same colored balls as neighbors
-### Day3
 * Move balls backwards when some balls explode to cover space created by exploded balls
+### Day3
+* Start,Stop actions for game
 ### Day4
 * Hear sounds on shooting balls
-* Start,Stop actions for game
 
 ## Bonus features
 
-* Make Background appropriate image
-* Make coins appear for user to shoot for extra points
+* Let user decide number of balls they want to play with.
+* Add more level(s).
