@@ -19,6 +19,14 @@
 #hidden{
   display: none;
 }
+#mutedspeaker, #speakeron {
+  font-size: 30px;
+  margin: 0px 20px;
+  text-align: center;
+}
+#mutedspeaker, #speakeron:hover {
+  cursor: pointer;
+}
 #game-canvas{
   border: 10px solid #990073;
   border-radius: 25px;
