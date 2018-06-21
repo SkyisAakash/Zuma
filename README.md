@@ -40,7 +40,6 @@
 
 ### Calculating Coordinates:
 
-  ![PlayDemo](https://s26.postimg.cc/ho6x8nsu1/zumademo.gif)
   The whole spiral is divided in five semi circles whose radius reduces gradually and center point shifts slightly in order to connect them together on their end points.
   The following code snippet calculates coordinates for the balls on the outer bottom semi circle.
 
