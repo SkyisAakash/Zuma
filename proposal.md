@@ -20,7 +20,7 @@
   - [x] Add newball in the chain upon shooting
   - [x] Make balls disappear if location of fireball has more than two same colored balls as neighbors
   - [x] Start,Stop actions for game
-  - [ ] Make sounds on shooting balls
+  - [x] Make sounds on shooting balls
 
 ## Wireframes
 
