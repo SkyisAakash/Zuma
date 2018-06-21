@@ -36,6 +36,8 @@
 
 ## Challenges and Math involved:
 
+![GIF](https://drive.google.com/uc?export=download&id=1ioEBwE0iNV2SUWRTdKaBunpswLIpqVVp)
+
 ### Displaying balls:
   One of the biggest Challenges I faced while building this game was making balls rotate in spiral on canvas.
   Here is how I achieved the functionality.
