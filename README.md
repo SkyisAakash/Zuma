@@ -18,7 +18,7 @@
 
 ## Design
 
-  This game was designed and built from scratch in 5 days. The proposal was prepared to implement MVPs to get site functional. More details about proposal can be viewed here.
+  This game was designed and built from scratch in 5 days. The proposal was prepared to implement MVPs to get site functional. More details about proposal can be viewed [here](https://github.com/SkyisAakash/Zuma/wiki).
 
 ## Technologies
 
