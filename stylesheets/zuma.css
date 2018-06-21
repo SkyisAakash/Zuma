@@ -24,6 +24,9 @@
   border-radius: 25px;
   margin: 20px 0px;
 }
+.creator {
+  display: flex;
+}
 #aboutdiv {
 /* padding-left: 20px; */
     border: 10px solid #990073;
