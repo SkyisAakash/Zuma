@@ -3,7 +3,9 @@
   [Zuma Live!](https://skyisaakash.github.io/Zuma/)
 
 ## Background and Overview
-<!-- image -->
+
+  MainPage(https://s26.postimg.cc/8t62xzyux/mainpagezuma.png)
+  
   **ZumaInfinite** is a classic game comprising of balls of four colors i.e. red, blue, yellow and green
   ,a frog controlled by user in the center and a skull emblem.
   User can shoot balls from frog in any direction to make group of three or more same colored balls, in which case the balls explode and user gets points depending on number
@@ -85,4 +87,4 @@ this.angle = Math.atan2(-vx,vy);
 
   Fireball uses same angle calculated as mentioned above to determine the direction for shooting.
   Upon intersecting with first ball in the chain it gets added in the chain and the balls array of game is updated.
-  At the same time the checking for colors of neighbor balls is done and if the number is greater than certain numbers then they are removed and percent of all the balls before that location are reduced to push them back. 
+  At the same time the checking for colors of neighbor balls is done and if the number is greater than certain numbers then they are removed and percent of all the balls before that location are reduced to push them back.
