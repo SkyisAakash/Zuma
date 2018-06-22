@@ -13,6 +13,10 @@
   of balls exploded.
   The difficulty increases to four balls after user blows certain number of balls.
 
+  User can see the ball to shoot in frog's mouth and in addition to that user can also see color of next coming ball in frog's head.
+
+  ![FrogInfo](https://s26.postimg.cc/ovnbcfdgp/froginfo.png)
+  
   Chain of balls proceeds in spiral towards the skull emblem and when it reaches the skull emblem the game ends.
 
   The goal of user here is to shoot balls in appropriate direction so balls explode and hence go away.
