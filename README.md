@@ -117,5 +117,4 @@ while(ball.color === balls[center].color) {
 * Add more levels
 * Make a coin appear for user to fire at for bonus
 * Save high scores for user
-
-- Feel free to contact for questions or feedback
+* Feel free to contact for questions or feedback
