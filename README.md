@@ -34,7 +34,7 @@
   - Vanilla JavaScript for game structure and game logic,
   - HTML audio element was used for sound generation, processing and control.
 
-## Challenges and Math involved:
+## Logic and Math involved:
 
 ![GIF](https://drive.google.com/uc?export=download&id=1ioEBwE0iNV2SUWRTdKaBunpswLIpqVVp)
 
@@ -98,3 +98,18 @@ this.angle = Math.atan2(-vx,vy);
   Fireball uses same angle calculated as mentioned above to determine the direction for shooting.
   Upon intersecting with first ball in the chain it gets added in the chain and the balls array of game is updated.
   At the same time the checking for colors of neighbor balls is done and if the number is greater than certain numbers then they are removed and percent of all the balls before that location are reduced to push them back.
+  A while loop takes care of selecting balls of same color around the fireball to make them explode. It can be better understood from the following code snippet.
+
+```javascript
+while(ball.color === balls[center].color) {
+  result.push(balls[center]);
+  center--;
+  if (center < 0) return result;
+}
+```
+
+## Future Implementations
+
+* Add more levels
+* Make a coin appear for user to fire at for bonus
+* Save high scores for user
