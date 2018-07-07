@@ -185,3 +185,8 @@ canvas {
 .gitlogo {
   left: 500px;
 }
+@media all and (max-width: 900px) {
+  .rightSection > img {
+    height: 100%;
+  }
+}
