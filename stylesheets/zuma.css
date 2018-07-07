@@ -107,26 +107,23 @@ body {
   flex-direction: column;
 }
 .rightSection{
-
-  width: 21%;
+  background-image: url("https://s26.postimg.cc/c6qq3e27t/rulesbackground.jpg");
+  max-width: 21%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 10px solid rgb(168, 102, 26);
+  border-radius: 20px;
+  margin: 20px 0px;
+  margin-left: 3px;
   display: flex;
   flex-direction: column;
 }
-.rightSection > img {
-  border: 7px solid black;
-  border-radius: 25px;
-  height: 95%;
-  margin-top: 15px;
-  width: 100%;
-  position: relative;
-}
+
 .rightSection > .rules {
-  position: absolute;
   margin-left: 30px;
-  /* width: 15%; */
-padding-left: 6px;
-word-wrap: break-word;
-padding-right: 1.5%;
+  padding-left: 6px;
+  word-wrap: break-word;
+  padding-right: 1.5%;
 }
 .hidden{
   display: none;
