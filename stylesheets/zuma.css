@@ -177,6 +177,7 @@ canvas {
   flex-direction: row;
   justify-content: space-around;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .gitlogo {
   left: 500px;
