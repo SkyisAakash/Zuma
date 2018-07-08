@@ -62,6 +62,7 @@
   font-weight: 700;
 }
 button{
+  overflow: hidden;
     height: 112px;
     width: 300px;
     font-family:  'Dekko';
